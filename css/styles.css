@@ -1,0 +1,122 @@
+body {
+  color: #333;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url(../img/top.png);
+  height: 350px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+header ul{
+  text-align: right;
+  margin: 0;
+  list-style-type: none;
+}
+
+header li{
+  display: inline-block;
+  padding: 20px 8px;
+  font-size: 20px;
+}
+
+header li>a{
+  text-decoration: none;
+  color: white;
+}
+
+section{
+  text-align: center;
+}
+
+.title{
+  padding:20px 50px;
+  float: left;
+}
+
+.title:hover{
+  opacity: 0.8;
+}
+
+.profile p{
+  margin: 0;
+}
+
+
+/* .profile{
+  margin:0;
+  text-align: center;
+}
+
+.profile h1,a{
+  margin-top:20px;
+  font-size: 25px;
+  float: left;
+  padding:5px;
+}
+
+
+  float: left;
+}
+
+.profile p{
+  clear: both;
+} */
+
+.icon{
+  border:2px lightgray solid;
+}
+
+.profile a>img{
+  border-radius:5px;
+}
+
+.profile a:hover{
+  opacity: 0.6;
+}
+
+.illust{
+  margin-bottom: 100px;
+}
+
+.illust h1{
+  padding-top: 100px;
+}
+
+
+.contact-form{
+  padding-top:100px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: RGB(34 38 76);
+  color: white;
+}
+
+input, textarea{
+  border-radius:5px;
+  width: 400px;
+  margin-bottom:5px;
+  padding: 10px;
+  border-bottom:1px solid #dee7ec;
+}
+
+.contact-submit{
+  width: 150px;
+  border-radius:5px;
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+footer p{
+  margin:0;
+}
+
+footer{
+  padding: 20px;
+  background-color: RGB(34 38 76);
+  color: white;
+  text-align: right;
+}
