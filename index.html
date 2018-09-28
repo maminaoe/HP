@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>アライヴ</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="楸ジュウイチのイラストレーションサイトです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/swiper.css">
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="title">
+      <img src="img/title.png" width="400" height="100"></a>
+    <nav>
+        <ul>
+          <li>
+            <a href="#about">ABOUT</a>
+          </li>
+          <li>
+            <a href="#illustration">ILLUSTRATION</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+    </nav>
+  </header>
+
+  <section>
+
+    <div class="profile">
+    <a name="about"><img src="img/juichi.png" width="200" height="200" alt="ジュウイチのアイコン"class="icon"></a>
+    <h1>楸ジュウイチ</h1>
+    <a href="https://www.pixiv.net/member.php?id=10864905" target="_blank">
+      <img src="img/pixiv.png" width="30" height="30" alt="Pixivへ"></a>
+    <a href="https://twitter.com/Hisagi101" target="_blank">
+      <img src="img/twitter.png" width="30" height="30" alt="Twitterへ"></a>
+    <p></p>
+    <p>HQ!!音駒1年生中心・二次創作サイト</p>
+  </div>
+
+    <section class="illust">
+    <h1><a name="illustration">ILLUSTRATION</a></h1>
+
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+         <div class="swiper-slide"><img src="img/illustration/170701.png" alt="Swiper01"></div>
+         <div class="swiper-slide"><img src="img/illustration/170702.png" alt="Swiper02"></div>
+         <div class="swiper-slide"><img src="img/illustration/170703.png" alt="Swiper03"></div>
+         <div class="swiper-slide"><img src="img/illustration/170704.png" alt="Swiper04"></div>
+         <div class="swiper-slide"><img src="img/illustration/170705.png" alt="Swiper05"></div>
+         <div class="swiper-slide"><img src="img/illustration/170706.png" alt="Swiper06"></div>
+         <div class="swiper-slide"><img src="img/illustration/170707.png" alt="Swiper07"></div>
+         <div class="swiper-slide"><img src="img/illustration/170708.png" alt="Swiper08"></div>
+         <div class="swiper-slide"><img src="img/illustration/170709.png" alt="Swiper09"></div>
+         <div class="swiper-slide"><img src="img/illustration/170710.png" alt="Swiper10"></div>
+         <div class="swiper-slide"><img src="img/illustration/170711.png" alt="Swiper11"></div>
+         <div class="swiper-slide"><img src="img/illustration/170712.png" alt="Swiper12"></div>
+       </div>
+       <div class="swiper-pagination"></div>
+       <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    <script src="js/swiper.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        speed: 400,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: true
+        },
+      });
+    </script>
+
+    <section class="contact-form">
+      <h1><a name="contact">お問い合わせ</a></h1>
+      <p>お名前（必須）</p>
+      <input>
+      <p>メールアドレス（必須）</p>
+      <textarea></textarea>
+      <p>お問い合わせ内容（必須）</p>
+      <textarea></textarea>
+      <p>※必須項目は必ずご入力ください</p>
+      <input class="contact-submit" type="submit" value="送信">
+    </section>
+
+  </section>
+
+  <footer>
+    <p>(c)Juichi Hisagi</p>
+  </footer>
+
+
+</body>
+
+</html>
